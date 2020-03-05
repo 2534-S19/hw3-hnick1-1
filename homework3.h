@@ -1,8 +1,8 @@
 /*
  * homework3.h
  *
- *  Created on:
- *      Author:
+ *  Created on: 3/5/2020
+ *      Author: Nicholas Hood
  */
 
 
@@ -21,6 +21,9 @@ bool fsmBoosterpackButtonS1(unsigned int buttonhistory);
 
 
 // TODO: Define any constants that are local to homework.c using #define
-
+#define PRESSED 0
+#define UNPRESSED 1
+#define DEBOUNCED 8
+#define MOD 8
 
 #endif /* HOMEWORK3_H_ */
